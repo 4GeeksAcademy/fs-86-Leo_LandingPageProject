@@ -1,12 +1,83 @@
+.home-container, .welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:url("/public/img/fondoPrincipal.webp");
+    color: white;
+    text-align: center;
+}
 
-/* 
+.intro h1, .welcome-message h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.intro p, .welcome-message p {
+    font-size: 1.5rem;
+    color: #D1D1D1;
+}
 
-*/
+.intro button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+#offcanvasRight {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+
+.offcanvas-header{
+    display:flex;
+    justify-content: center;
+}
+
+.offcanvas .btn-close {
+    filter: invert(1);
+}
+
+.offcanvas-body{
+    display:flex;
+    flex-direction: column;
+}
+
+.mundo-personal-button .hidden-text {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.mundo-personal-button:hover .hidden-text {
+    opacity: 1;
+}
+
+.mundo-laboral-button .hidden-text2 {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.mundo-laboral-button:hover .hidden-text2 {
+    opacity: 1;
+}
+
+.mundo-estudiantil-button .hidden-text3 {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.mundo-estudiantil-button:hover .hidden-text3{
+    opacity: 1;
+}
+
+.mundo-deportivo-button .hidden-text4 {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.mundo-deportivo-button:hover .hidden-text4{
+    opacity: 1;
+}
+

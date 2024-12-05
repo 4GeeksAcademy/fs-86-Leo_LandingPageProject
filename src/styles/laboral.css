@@ -1,0 +1,23 @@
+.laboral-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("/public/img/mundo-laboral.webp");
+    background-size: cover;
+    height:100vh;
+    color: white;
+}
+
+.mundo-laboral-title{
+    text-transform: uppercase;
+    text-decoration: overline;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.mundo-laboral-body{
+    margin:0 auto;
+    display:flex;
+    padding:20px;
+    font-variant:small-caps;
+}
