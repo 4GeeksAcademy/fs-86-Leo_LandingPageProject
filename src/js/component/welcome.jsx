@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar"; 
+import "/src/styles/index.css";
 
 const Welcome = ({setPage}) => {
     return (

@@ -14,8 +14,8 @@ const Personal = ({setPage}) => {
             </div>
             <div className="mundo-personal-body">
                 <p>
-                    Bienvenido al mundo personal.<br />
-                    Aquí descubrirás cómo lograr un equilibrio en tu vida<br />
+                    Bienvenido al mundo personal.<br/>
+                    Aquí descubrirás cómo lograr un equilibrio en tu vida<br/>
                     y alcanzar tus metas personales.
                 </p>
             </div>

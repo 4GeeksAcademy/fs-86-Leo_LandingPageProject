@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
+import "/src/styles/index.css";
 import Welcome from "./welcome.jsx"; 
 import Personal from "./personal.jsx";
 import Laboral from "./laboral.jsx";
@@ -21,17 +22,18 @@ const Home = () => {
                 </div>
             </div>
         );
-    }else if (page === "welcome") {
+    };
+    if (page === "welcome") {
         return (
             <Welcome setPage={setPage} /> 
         );
-    } else if (page === "personal") {
-        return <Personal  setPage={setPage}/>;
-    } else if(page ==="laboral"){
-        return <Laboral setPage={setPage}/>;
-    }else {
-        return null; 
     };
+    if (page === "personal") {
+        return <Personal  setPage={setPage}/>;
+    };
+    if(page ==="laboral"){
+        return <Laboral setPage={setPage}/>;
+    } return null; 
 };
 
 export default Home;
