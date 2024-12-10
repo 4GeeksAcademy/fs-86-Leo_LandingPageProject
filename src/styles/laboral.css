@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: url("/public/img/mundo-laboral.webp");
+    background-image: url("/src/styles/img/mundo-laboral.webp");
     background-size: cover;
     height:100vh;
     color: white;

@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image:url("/public/img/fondoPrincipal.webp");
+    background-image:url("/src/styles/img/fondoPrincipal.webp");
     color: white;
     text-align: center;
 }
