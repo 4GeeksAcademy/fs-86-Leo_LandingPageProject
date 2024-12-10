@@ -10,7 +10,7 @@ const Home = () => {
         return (
             <div className="home-container">
                 <div className="intro">
-                    <h1>Motivación y Disciplina</h1>
+                    <h1>Motivation and Grit</h1>
                     <p>
                         La motivación y la disciplina son los pilares que sostienen nuestros sueños.
                         En este viaje, exploraremos mundos que te ayudarán a alcanzar tus metas y a construir
